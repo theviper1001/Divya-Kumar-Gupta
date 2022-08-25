@@ -13,7 +13,7 @@ public class test1 {
 		 
 		 int b[]=new int[size];
 		 System.out.println("Enter the elements of the array");
-		  System.out.println("Aeiou");	 
+		  
 		 int count=0;
 		 
 		 for(int i=0;i<size;i++)
