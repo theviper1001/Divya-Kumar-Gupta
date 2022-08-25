@@ -6,10 +6,10 @@ public class test1 {
 
 	public static void main(String args[])
 	{
-		Scanner sc = new Scanner(System.in);
+		Scanner sc1 = new Scanner(System.in);
 		
 		System.out.println("Enter the size of the array");
-		 int size=sc.nextInt();
+		 int size=sc1.nextInt();
 		 
 		 int b[]=new int[size];
 		 System.out.println("Enter the elements of the array");
@@ -18,7 +18,7 @@ public class test1 {
 		 
 		 for(int i=0;i<size;i++)
 		 {
-			 b[i]=sc.nextInt();
+			 b[i]=sc1.nextInt();
 		 
 			 if(b[i]==0)
 			 {count++;}
@@ -46,6 +46,6 @@ public class test1 {
 			 System.out.print(b[i]);
 		 }
 		 
-	sc.close();}
+	sc1.close();}
 	
 }
