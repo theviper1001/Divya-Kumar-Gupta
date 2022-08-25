@@ -2,7 +2,7 @@ package digital_arrayzero;
 
 
 
-public class test1 {
+ class test2 {
 
 	public static void main(String args[])
 	{
